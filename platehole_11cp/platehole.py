@@ -1,15 +1,11 @@
 #import packages
-import numpy as np
-from numpy import pi
+import os
+import shutil  # to copy source file into result folder
+
 import matplotlib.pyplot as plt
-import sciann as sn
+import numpy as np
 import pandas as pd
-from numpy.random import seed
-import random
-import scipy
-import os, sys, time
-import shutil #to copy source file into result folder
-import tensorflow as tf
+import sciann as sn
 
 #create output folder if it does not exist
 if not os.path.isdir('./output'):
